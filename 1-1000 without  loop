@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int num;
+    start:
+        if(num>1000){
+            return;
+        }
+        printf(" %d",num);
+        num++;
+        goto start;
+    return 0;
+}
