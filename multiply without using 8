@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+int num,product=0,i;
+printf("Enter the number to be multiplied by 8 : ");
+scanf("%d",&num);
+for(i=0;i<=7;i++){
+    product+=num;
+}
+printf("Product is %d",product);
+    return 0;
+}
