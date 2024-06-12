@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int num,power,i,powernum=1;
+    printf("Enter the number :");
+    scanf("%d",&num);
+    printf("Enter the power :");
+    scanf("%d",&power);
+    for(i=0;i<power;i++)
+        powernum=powernum*num;
+    printf("%d",powernum);
+        return 0;
+}
