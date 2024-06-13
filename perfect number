@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int num,i=0,j=0,sum=0;
+    char ch[100];
+    printf("Enter the number :");
+    scanf("%d",&num);
+    while(i<=num){
+            i=i+1;
+        if(num%i==0){
+            ch[j]=i;
+            j=j+1;
+            printf("%d",i);
+        }
+    }
+    int length=strlen(ch);
+    for(i=0;i<length;i++){
+        sum=sum+ch[i];
+    }
+    if(sum/2==ch[length-1])
+        printf("\nThe number is a perfect number.");
+    return 0;
+}
