@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int num,root,i;
+    printf("Enter the number :");
+    scanf("%d",&num);
+
+    for(i=0;i<num;i++){
+        if(i*i==num){
+        printf("Root of %d is %d.",num,i);
+        return;
+        }
+        }
+    return 0;
+}
